@@ -25,7 +25,7 @@ def verificar_curp_existente(datos, curp):
 
 # Ejemplo de uso
 def main():
-    ruta_archivo = './Generador_Curp/CURPs_Chiapas.xlsx'
+    ruta_archivo = './actividad curp/CURPs_Chiapas.xlsx'
     datos = cargar_datos(ruta_archivo)
 
     # Pedir datos al usuario
