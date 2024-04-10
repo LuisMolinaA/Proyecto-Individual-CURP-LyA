@@ -1,0 +1,119 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.titulo {
+  margin-top: 30px;
+  text-align: center;
+  color: #333;
+}
+
+.formulario {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.select-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-image: linear-gradient(45deg, transparent 50%, #f0f0f0 50%), linear-gradient(135deg, #f0f0f0 50%, transparent 50%);
+  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.captcha-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content p {
+  margin-bottom: 15px;
+}
+
+.modal-content button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #0056b3;
+}
+
+.captcha-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.grecaptcha-badge {
+  margin: 0 auto;
+}
